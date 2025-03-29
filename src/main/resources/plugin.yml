@@ -1,0 +1,30 @@
+name: PlayerCount
+version: ${full.version}
+api-version: 1.21
+
+main: io.quagmire.playercount.PlayerCountPlugin
+
+author: Quagmire
+prefix: PlayerCount
+
+depend: [Core]
+folia-supported: true
+
+commands:
+  playercount:
+    description: PlayerCount Main Command
+    permission: playercount.player
+  playercountadmin:
+    description: PlayerCount Administrator Command
+    permission: playercount.admin
+
+permissions:
+  playercount.player:
+    description: Permission to use the plugin as a player
+    default: op
+  playercount.admin:
+    description: Permission to use the plugin as an administrator
+    default: op
+  playercount.reload:
+    description: Permission to use reload plugin
+    default: op
