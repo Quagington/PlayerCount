@@ -6,10 +6,10 @@ plugins {
 }
 
 group = "io.quagmire"
-version = "1.0.3"
+version = "1.0.4"
 
 java {
-  toolchain.languageVersion.set(JavaLanguageVersion.of(21))
+  toolchain.languageVersion.set(JavaLanguageVersion.of(25))
 }
 
 repositories {
@@ -29,7 +29,7 @@ repositories {
 }
 
 dependencies {
-  compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+  compileOnly("io.papermc.paper:paper-api:1.21.7-R0.1-SNAPSHOT")
   compileOnly("io.quagmire:Core:2.2.40")
 
   compileOnly("org.projectlombok:lombok:1.18.30")
