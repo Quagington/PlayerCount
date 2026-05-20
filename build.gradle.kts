@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "io.quagmire"
-version = "1.0.6"
+version = "1.0.7"
 
 java {
   toolchain.languageVersion.set(JavaLanguageVersion.of(25))
